@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Textualize</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="../static/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700&family=Open+Sans:wght@400;500;700&family=Poppins:wght@400;600&display=swap"
+    rel="stylesheet">
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#">
+        <h1 class="logo">Textualize</h1>
+      </a> 
+
+      <button class="nav-toggle-btn" aria-label="Toggle Menu" data-nav-toggle-btn>
+        <ion-icon name="menu-outline" class="menu-icon"></ion-icon>
+        <!-- <ion-icon name="close-outline" class="close-icon"></ion-icon> -->
+      </button>
+
+      <nav class="navbar container">
+        <ul class="navbar-list">
+
+          <li><a href="#home" class="navbar-link" data-nav-link>Home</a></li>
+          <li><a href="#about" class="navbar-link" data-nav-link>About</a></li>
+          <li><a href="#cat" class="navbar-link" data-nav-link>Categories</a></li>
+
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home">
+        <div class="container">
+
+          <div class="hero-banner">
+
+            <img src="../static/images/home_img (1).png" width="800" height="864" loading="lazy" alt="home_img"
+              class="img-cover">
+
+          </div>
+
+          <div class="hero-content">
+
+            <h2 class="hero-title">
+              <span>The Complete</span>
+              <strong>Text Analyzer</strong>
+            </h2>
+
+            <p class="hero-text">
+              <!-- Text analysis is the process of obtaining valuable insights from texts. -->
+              Text analysis, also known as text mining, is the process of automatically classifying and extracting meaningful information from unstructured text.
+              It involves detecting and interpreting trends and patterns to obtain relevant insights from data in just seconds.
+            </p>
+
+            <div class="btn-group">
+              <a href="#cat" class="btn btn-primary blue">Categories</a>
+
+              <a href="#about" class="btn">About</a>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about">
+        <div class="container">
+
+          <figure class="about-banner">
+
+            <img src="../static/images/about.png" width="800" height="652" loading="lazy" alt="about image"
+              class="img-cover">
+
+            <div class="abs-icon abs-icon-1">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </div>
+
+            <div class="abs-icon abs-icon-2">
+              <ion-icon name="mail-open-outline"></ion-icon>
+            </div>
+
+            <div class="abs-icon abs-icon-3">
+              <ion-icon name="search-outline"></ion-icon>
+            </div>
+
+          </figure>
+
+          <div class="about-content">
+
+            <p class="section-subtitle">Text Analysis</p>
+
+            <h2 class="h2 section-title">Obtaining Qualitative insights by analyzing unstructured text. </h2>
+
+            <p class="section-text">
+              Textualize performs indepth analysis of any given text.The analysis includes : Spam Vs Ham Classification, Hate/Abuse Speech Detection and Sentiment Analysis.  
+            </p>
+
+            <p class="section-text">
+              Each prediction page is connected with a Machine Learning Model which uses either of Logistic Regression or Multinomial Naive Bayes Algorithm to predict the results.
+            </p>
+
+            <a href="#portfolio" class="btn btn-primary blue">Github</a>
+
+          </div>
+
+        </div>
+      </section>
+
+   <!-- 
+        - #BLOG
+      -->
+
+      <section class="section cat" id="cat">
+        <div class="container">
+
+          <p class="section-subtitle">Different Categories</p>
+
+          <h2 class="h2 section-title">Analyse your text/messages</h2>
+
+          <p class="section-text">
+            Choose from any of the categories below and find which class your message belongs to!
+          </p>
+
+          <ul class="cat-list">
+
+            <li>
+              <div class="cat-card">
+
+                <figure class="card-banner">
+                  <a href="/sp">
+                    <img src="../static/images/ham.png" width="1181" height="843" loading="lazy"
+                      alt="spam vs ham" class="img-cover">
+                  </a>
+                </figure>
+
+                <a href="#" class="card-tag" align="center">Spam Vs Ham Classification</a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="cat-card">
+
+                <figure class="card-banner">
+                  <a href="/d">
+                    <img src="../static/images/hate.png" width="1181" height="843" loading="lazy"
+                      alt="hate img" class="img-cover">
+                  </a>
+                </figure>
+
+                <a href="#" class="card-tag" align = "center">Hate/Offensive Speech Detection</a>
+              </div>
+            </li>
+
+            <li>
+              <div class="cat-card">
+
+                <figure class="card-banner">
+                  <a href="/s">
+                    <img src="../static/images/sentiment.png" width="1181" height="843" loading="lazy"
+                      alt="sentiment image" class="img-cover">
+                  </a>
+                </figure>
+
+                <a href="#" class="card-tag" align="center">Sentiment Analysis</a>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <p class="copyright">
+        <a href="#" class="copyright-link">@Textualize</a>. The Complete Text Analyzer
+      </p>
+
+      <ul class="footer-list">
+        <li>
+          <a href="#" class="footer-link">Home</a>
+        </li>
+
+        <li>
+          <a href="#about" class="footer-link">About</a>
+        </li>
+      </ul>
+
+    </div>
+  </footer>
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-to-top" data-back-to-top>BACK TOP</a>
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

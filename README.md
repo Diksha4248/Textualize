@@ -4,7 +4,7 @@
 
 ![image](https://user-images.githubusercontent.com/78029145/154792740-dadca757-5424-4e4c-af69-fc3a5055af3b.png)
 
-This app is used to perform an indepth analysis of a text
+This app is used to perform an indepth analysis of a text.<br>
 The analysis sections include ->
 
 **1. Spam or Ham Detection**
@@ -24,9 +24,9 @@ The analysis sections include ->
 
 ## Structure Of The Project
 
-- Each prediction page is conneceted with a Machine Learning Model which uses either of Logistic Regression or Support Vector Machine Algorithms to predict the results.
+- Each prediction page is connected with a Machine Learning Model which uses either of Logistic Regression or Support Vector Machine Algorithms to predict the results.
 - There are 3 different datasets being used for each prediction.
-- We can land into each prediction site of the web app from the options in the Navigation Menu.
+- User lands into each prediction site of the web app from the options in the Navigation Menu.
 - Only 1 relevant feature taken into consideration which is the text and then the text is preprocessed and vectoized with help of TF-IDF Vectorizer to fit into the model and tain it.
 - So the user gets a broad overview of the text after the analysis
 
@@ -46,5 +46,5 @@ The text is preprocessed then fed to the model.
 ## Glance At The Application- 
 
 ### 1. Home Page
-![image](https://user-images.githubusercontent.com/78029145/154792997-c60376bb-411a-4624-aeeb-f552416a8cfb.png)
+![image](Readme-images/HomePage.png)
 

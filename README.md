@@ -26,7 +26,7 @@ The analysis sections include ->
 
 - Each prediction page is connected with a Machine Learning Model which uses either of Logistic Regression or Support Vector Machine Algorithms to predict the results.
 - There are 3 different datasets being used for each prediction.
-- User lands into each prediction site of the web app from the options in the Navigation Menu.
+- User lands into each prediction site of the web app from the options in the Categories section.
 - Only 1 relevant feature taken into consideration which is the text and then the text is preprocessed and vectoized with help of TF-IDF Vectorizer to fit into the model and tain it.
 - So the user gets a broad overview of the text after the analysis
 

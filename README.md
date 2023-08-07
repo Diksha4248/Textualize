@@ -2,7 +2,7 @@
              Textualize
 </h1>
 
-![image](https://user-images.githubusercontent.com/78029145/154792740-dadca757-5424-4e4c-af69-fc3a5055af3b.png)
+![image](Readme-images/HomePage.png)
 
 This app is used to perform an indepth analysis of a text.<br>
 The analysis sections include ->
@@ -35,10 +35,8 @@ The analysis sections include ->
 | Text Analysis Type | Feature |
 | - | - |
 | Spam or Ham Detection Page | Text |
-| Sentiment Analysis Page | Text |
-| Stress Detection Page | Text |
 | Hate & Offensive Content Page | Text |
-| Sarcasm Detection | Text |
+| Sentiment Analysis Page | Text |
 
 The text is preprocessed then fed to the model.
 
@@ -47,4 +45,13 @@ The text is preprocessed then fed to the model.
 
 ### 1. Home Page
 ![image](Readme-images/HomePage.png)
+
+### 2. Categories
+![image](Readme-images/Categories.png)
+
+### 3. Hate Speech Detection
+![image](Readme-images/HateSpeech.png)
+
+### 4. Prediction
+![image](Readme-images/Prediction.png)
 
